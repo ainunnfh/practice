@@ -1,0 +1,28 @@
+body{
+    font-family: Arial;
+}
+
+/* gabung 2 selector pake koma */
+h1,h2 {
+    color: green;
+}
+
+/* dibaca kanan ke kiri (a li ul) di seperate pake spasi */
+ul li a {
+    color: orange;
+}
+
+/* dibaca kanan ke kiri (a li ol) */
+ol li a {
+    color: red;
+}
+
+/* id pake # */
+#p1 {
+    color: pink;
+}
+
+/* class pake titik */
+.p2 {
+    color: red;
+}

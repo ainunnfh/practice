@@ -1,0 +1,76 @@
+/* akan diambil nilai margin yang paling besar */
+.satu-vertical {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    margin-right: 50px;
+}
+
+.dua-vertical {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin-top: 50px;
+}
+
+.tiga-vertical {
+     width: 50px;
+    height: 50px;
+    background-color: violet;
+}
+
+p{
+    display: inline-block
+}
+
+/*  akan dijumlahkan kedua marginnya. */
+.satu-horizontal {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    margin-right:30px;
+
+}
+
+.dua-horizontal {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin-left: 20px;
+}
+
+.tiga-horizontal {
+     width: 50px;
+    height: 50px;
+    background-color: violet;
+}
+
+/* akan berlawanan arah */
+.negative-margine-satu {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    
+}
+
+.negative-margine-dua{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin-left: -50px
+}
+
+.negative-margine-tiga {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+/* Cara Simple Nulis Margin */
+/* 40px => semua sisi berjarak 40*/
+/* 30px 20px => atasbawah 30, kanankiri 20  */
+/* 50px 20px 30px => atas 50, kanankiri 20, bawah 30 */
+/* 20px 30px 40px 50px => dibaca searah jarum jam */

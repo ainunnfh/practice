@@ -1,0 +1,25 @@
+.hello:link{
+    color: pink;
+}
+
+/* .hello:hover{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+} */
+
+.hello:visited{
+    color:red;
+}
+
+
+/* dibaca cari a yg ada di dlm li yg merupakan anak pertama */
+li:first-child a{
+    color: green;
+}
+
+/* link keberapa */
+li:nth-child(4) a {
+    color: pink;
+}
+/* bisa pake (even) utk genap (odd) utk ganjil*/

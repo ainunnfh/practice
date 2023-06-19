@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dimensi dan Overflow</title>
+    <style>
+      .dimensi {
+        width: 200px;
+        height: 200px;
+        background-color: lightblue;
+      }
+
+      .overflow-auto {
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        overflow: auto;
+      }
+
+      .overflow-hidden {
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        overflow: hidden;
+      }
+      .overflow-scroll {
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        overflow: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- dimensi -->
+    <!-- punya 2 value, yaitu width dan height dgn satuan px, %, cm in -->
+    <div class="dimensi">Ini dimensi</div>
+    <br /><br /><br />
+    <!-- akan menambahkan scroll secara otomoatis jika sudah melebihi konten -->
+    <div class="overflow-auto">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia vitae
+      hic expedita, inventore quisquam modi veniam id reiciendis molestiae totam
+      nostrum sit nobis iusto qui excepturi labore eligendi? Impedit, hic? Lorem
+      ipsum dolor sit amet consectetur adipisicing elit. Molestiae itaque ipsam
+      voluptate eligendi, modi, corrupti architecto excepturi nemo est expedita
+      dolorem tempora facilis a fuga minus enim eius ducimus voluptatem.
+    </div>
+    <br /><br /><br />
+    <!-- Jika konten melebihi ukuran nya, maka konten itu akan disembunyikan -->
+    <div class="overflow-hidden">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non tempora unde
+      doloremque quisquam debitis eveniet laborum est. Expedita assumenda,
+      delectus, quam maxime saepe deserunt illo ea reprehenderit odit minus
+      praesentium! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Minus dignissimos, adipisci mollitia nostrum eaque facere maxime animi
+      consequuntur, nihil impedit vero ipsa! Saepe eaque architecto itaque.
+      Fugit eius vero ipsam.
+    </div>
+    <br /><br /><br />
+    <!-- sama kaya auto, tp jika kontennya krg dari ukurannya maka tetap ada icon scrol. -->
+    <div class="overflow-scroll">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit atque
+      doloribus suscipit dolor ea pariatur corporis possimus autem incidunt iste
+      dolore iure consequatur ipsam, nemo nisi quos, totam nesciunt aspernatur?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi atque qui
+      voluptatum! Perferendis modi asperiores praesentium, iste, rerum
+      necessitatibus doloremque eum perspiciatis, facere veritatis aliquam.
+      Culpa officiis asperiores reiciendis repellendus.
+    </div>
+  </body>
+</html>
