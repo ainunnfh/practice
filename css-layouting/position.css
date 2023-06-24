@@ -1,0 +1,19 @@
+/* Relative :
+Maju satu dimensi, sehingga tidak menggeser elemen sblm nya */
+
+div {
+    width: 200px;
+    height: 200px;
+}
+.satu {
+    background-color: lightblue;
+}
+.dua {
+    background-color: violet;
+    position: relative;
+    top:30px;
+    left: 50px;
+}
+.tiga {
+    background-color: salmon;
+}

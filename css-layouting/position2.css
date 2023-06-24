@@ -1,0 +1,17 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+.satu {
+    background-color: lightblue;
+}
+.dua {
+    background-color: violet;
+    position: absolute;
+    /* menumpuk dibawah  */
+}
+.tiga {
+    background-color: salmon;
+}
+
+/* fixed itu elemen nya tidak kegeser jika kita scrol halamannya. */
