@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid Template Column and Row Explicit and Implicit Grid</title>
+    <title>Grid Template Column and Row Fraction</title>
     <style> 
     html,
     body {
@@ -17,10 +17,8 @@
         width:60%;
         margin: 50px auto;
         display: grid;
-        grid-template-columns: 100px 50px;
-        grid-template-rows: 50px 30px;
-        grid-auto-flow: column;
-        /* grid-auto-columns: 200px; */
+        /* grid-template-columns: 1fr 2fr 50px */
+        grid-template-columns: repeat(4, 150px) repeat(5, 1.5fr)
     }
     
     .item{
