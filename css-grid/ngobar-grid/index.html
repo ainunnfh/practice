@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aesthetic Area Here</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Montserrat:wght@100&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="aesthetic">
+          <h2 class="heading">Aesthetic Website</h2>
+          <p class="sub-heading">All about aesthetic</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="tittle">Lorem Ipsum</h4>
+          <p class="desc">Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="tittle">Lorem Ipsum</h4>
+          <p class="desc">Lorem ipsum dolor sit amet</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="aes">
+          <h1>Aesthetic Sweater</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+            <div class="icon">🛍️</div>
+            <h3>Discount</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem ullam similique nam soluta commodi asperiores.</p>
+        </div>
+        <div class="service">
+            <div class="icon">👚</div>
+            <h3>Clothes</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem ullam similique nam soluta commodi asperiores.</p>
+        </div>
+        <div class="service">
+            <div class="icon">🛒</div>
+            <h3>Shop</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem ullam similique nam soluta commodi asperiores.</p>
+        </div>
+      </section>
+
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
