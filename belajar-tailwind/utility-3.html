@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar TailwindCSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss"></style>
+  </head>
+  <body>
+    <h1 class="text-4xl text-center my-10 font-bold">
+      Mari Belajar Tailwind CSS
+    </h1>
+
+    <section class="mb-96">
+      <h2>Spacing</h2>
+      <div class="-ml-8">Margin</div>
+      <div class="p-8">Padding</div>
+    </section>
+
+    <section
+      class="mb-10 bg-gradient-to-r from-indigo-400 via-pink-400 to-yellow-300"
+    >
+      <h2>Sizing</h2>
+      <div class="w-32 h-32">Kotak 1</div>
+      <div class="max-w-xs">Kotak 2</div>
+    </section>
+
+    <section class="mb-10 font-mono max-w-3xl">
+      <h2 class="text-xl">Belajar Mengenai Typography pada TailwindCSS</h2>
+      <div class="mb-4 text-lg font-semibold">By Ainun Nafiah 25 Juni 2023</div>
+      <p class="mb-4">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere dolorem
+        minima quibusdam nulla! Earum, itaque? Ad harum officia veniam ex sint
+        saepe vel optio veritatis eum! Explicabo eius sapiente cumque.
+      </p>
+      <p class="mb-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, dolor
+        non voluptates ad nihil eligendi voluptatum expedita natus ducimus
+        numquam porro animi officiis soluta, debitis culpa nesciunt, placeat
+        minus deleniti repudiandae cumque ab architecto? Quasi provident
+        accusantium harum quas minima.
+      </p>
+      <p class="mb-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolore
+        voluptas inventore pariatur mollitia autem sed blanditiis
+        necessitatibus, iusto dignissimos ipsam, sunt, molestias nesciunt qui!
+        Nemo voluptatum eos aliquam voluptas?
+      </p>
+    </section>
+
+    <div
+      class="max-w-xl h-96 mx-auto mt-[42] bg-[#bada55] overflow-y-scroll bg-local"
+      style="background-image: url(https://source.unsplash.com/1000x600?sky)"
+    >
+      <p class="p-5 text-2xl">
+        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Aliquam quas nisi natus placeat debitis dolorem non,
+        quisquam aperiam eveniet repudiandae, reprehenderit, quidem tempore
+        laudantium molestiae quam perferendis iusto? Labore, sint? Lorem ipsum
+        dolor, sit amet consectetur adipisicing elit. Quia dignissimos eum animi
+        neque repudiandae perferendis mollitia placeat asperiores sed cupiditate
+        voluptatem repellendus doloribus commodi cumque vero rem, assumenda
+        accusamus? Sapiente. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Illo magni ipsam provident. Rem laborum quod ipsam eum debitis,
+        ratione, voluptatem, eaque iusto eligendi adipisci perspiciatis incidunt
+        veritatis. Unde, animi beatae.
+      </p>
+    </div>
+
+    <div
+      class="mt-32 max-w-xl mx-auto h-96 bg-slate-800 bg-contain bg-no-repeat bg-center rounded-lg shadow-lg opacity-90 border-8 flex"
+      style="background-image: url(./img/3.jpg)"
+    >
+      <div
+        class="w-[100px] h-[100px] bg-white/50 mx-auto backdrop:blur rounded"
+      ></div>
+    </div>
+
+    <hr class="my-20" />
+    <p>Utility 3 Pseudo Class</p>
+
+    <button
+      class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-sky-300"
+    >
+      Save
+    </button>
+
+    <div
+      class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 hover:bg-sky-500 group"
+    >
+      <h5 class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white">
+        My Card
+      </h5>
+      <p
+        class="text-slate-600 group-hover:text-white selection:bg-lime-300 selection:text-slate-900 first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-3"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
+        eligendi placeat alias repudiandae. Error minima quos dignissimos autem
+        eligendi totam obcaecati ut aliquid mollitia? Alias aliquam ipsum
+        voluptate consequuntur quisquam!
+      </p>
+    </div>
+
+    <div class="max-w-lg border-slate-500 rounded-xl mx-auto shadaow-md p-5">
+      <form action="">
+        <label for="email">
+            <span class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-pink-500 after:ml-0.5">Tulis Email</span>
+          <input
+            type="email"
+            id="email"
+            placeholder="contoh@gamil.com"
+            class="px-3 border shadow rounded w-full block text-sm placeholder:text-slate-400 
+            focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid: text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer "
+          />
+          <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">Email tidak Valid</p>
+        </label>
+      </form>
+    </div>
+    <div class="mb-96"></div>
+  </body>
+</html>
