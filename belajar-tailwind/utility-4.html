@@ -105,44 +105,38 @@
     <div class="max-w-lg border-slate-500 rounded-xl mx-auto shadaow-md p-5">
       <form action="">
         <label for="email">
-            <span class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-pink-500 after:ml-0.5">Tulis Email</span>
+          <span
+            class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-pink-500 after:ml-0.5"
+            >Tulis Email</span
+          >
           <input
             type="email"
             id="email"
             placeholder="contoh@gamil.com"
-            class="px-3 border shadow rounded w-full block text-sm placeholder:text-slate-400 
-            focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid: text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer "
+            class="px-3 border shadow rounded w-full block text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid: text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer"
           />
-          <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">Email tidak Valid</p>
+          <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">
+            Email tidak Valid
+          </p>
         </label>
       </form>
     </div>
+
+    <hr class="my-20" />
+    <!-- Transform and Transition -->
+    <div
+      class="w-40 h-40 bg-sky-500 mx-auto rounded-lg shadow-lg hover:scale-150 hover:rotate-45 hover:translate-x-16 hover:bg-pink-500 transition origin-top-left"
+    ></div>
+
+    <div class="w-40 h-40 mx-auto mt-20 group">
+      <div
+        class="w-full h-full bg-sky-500 rounded-lg shadow-lg group-hover:rotate-180 origin-top-left transition duration-1000"
+      ></div>
+    </div>
+
+    <!-- Animation -->
+
+    <div class="w-40 h-40 bg-pink-500 mx-auto rounded-lg shadow-lg mt-20 animate-bounce"></div>
     <div class="mb-96"></div>
-
-
-    <button
-      class="my-10 bg-[#D808D2] px-3 py-0.5 rounded-lg text-white font-semibold block mx-auto hover:bg-[#ac25a7] active:bg-[#ac25a7] focus:ring focus:ring-fuchsia-400 mt-0"
-    >
-      Login
-    </button>
-
-    <button
-      class="my0.50 bg-[#D808D2] px-3 py-0.5 rounded-lg text-white font-semibold block mx-auto hover:bg-[#ac25a7] active:bg-[#ac25a7] focus:ring focus:ring-fuchsia-400"
-    >
-      Log Out
-    </button>
-    <button
-      class="my-10 bg-[#D808D2] px-3 py-0.5 rounded-lg text-white font-semibold block mx-auto hover:bg-[#ac25a7] active:bg-[#ac25a7] focus:ring focus:ring-fuchsia-400"
-    >
-      Submit
-    </button>
-
-    <section
-      class="mb-10 bg-gradient-to-r from-sky-300 via-purlpe-500 to-pink-300"
-    >
-      <h1 class="text-white">Our story in numbers.</h1>
-      <div class="w-32 h-32"></div>
-      <div class="max-w-xs"></div>
-    </section>
   </body>
 </html>
